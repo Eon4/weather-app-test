@@ -2,7 +2,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   background: #222;
@@ -90,6 +90,31 @@ h1.temp {
   width: 20%;
 }
 
-/* #temp02{
-  font-weight: 5%;
-} */
+.hourly {
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  /* text-decoration: underline; */
+  display: block;
+  text-align: center;
+  /* margin-left: auto;
+  margin-right: auto; */
+
+}
+
+.section {
+  display: grid;
+  gap: 0.5em;
+  grid-template-columns: 1fr 1fr;
+}
+
+.material-symbols-outlined {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.line{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
