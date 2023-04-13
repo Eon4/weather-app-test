@@ -52,3 +52,9 @@ document
   });
 /*Fetcher vejret fra start*/
 weather.fetchWeather("Aalborg");
+
+// export const URL = {
+//   forecast(lat, lon) {
+//     return "api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}"
+//   },
+// }
